@@ -1,0 +1,68 @@
+/* font family */
+
+@font-face {
+    font-family: Semplicita-Bold;
+    src: url("./assets/font-family/Semplicita\ Bold.otf");
+}
+
+@font-face {
+    font-family: Semplicita-Light;
+    src: url("./assets/font-family/Semplicita\ Light.otf");
+}
+
+@font-face {
+    font-family:Semplicita-Medium;
+    src: url("./assets/font-family/Semplicita\ Medium.otf");
+}
+
+@font-face {
+    font-family:Poppins-Light;
+    src: url("./assets/font-family/Poppins-Light.ttf");
+}
+
+
+
+
+body{
+    background: #2e673d ;
+}
+.timerbg{
+    background-image: url("../src/assets/images/Toystory3atrailer25\ 1.png");
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 500px) {
+    .timerbg{
+        height: 700px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .MuiContainer-root{
+        max-width: 1700px;
+    }
+}
+.position-test{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.putar{
+    display: none;
+ }
+ 
+ .activeBaby{
+     display: flex !important;
+     width: 277px;
+    height: 277px;
+ }
+ 
+ @media (min-width:1199){
+     .css-1pbyck7{
+         height:560px;
+     }
+ }
